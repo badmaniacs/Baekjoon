@@ -7,7 +7,6 @@ public class ten {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         String data = br.readLine();
         String arr[] = data.split(" ");
-        int N = Integer.parseInt(arr[0]); 
         int X = Integer.parseInt(arr[1]);
         data = br.readLine();
         String arr2[] = data.split(" ");
