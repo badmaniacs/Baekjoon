@@ -13,6 +13,7 @@ public class nine {
         System.out.println(d);
         System.out.println(e);
         System.out.println(c+d*10+e*100);
+        sc.close();
 
 
     }

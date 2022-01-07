@@ -22,5 +22,6 @@ public class five {
             H = H - 24;
         }
         System.out.printf("%d %d",H,M);
+        sc.close();
     }
 }
