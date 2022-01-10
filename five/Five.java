@@ -27,6 +27,5 @@ public class Five {
         bw.write(Double.toString(avg));
         bw.flush();
         bw.close();
-    }
-    
+    }    
 }
