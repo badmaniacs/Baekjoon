@@ -13,7 +13,6 @@ public class B_5585 {
         int o = N % 10 / 5;
         int il = N % 5 / 1;
         int sum = obak + bak + osib + sib + o + il;
-        System.out.println(obak+" "+bak+" "+osib+" "+sib+" "+o+" "+il);;
         bw.write(Integer.toString(sum));
         bw.flush();
         bw.close();
