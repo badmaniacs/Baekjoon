@@ -19,7 +19,6 @@ public class B_1032n {
                 else {
                     gene[i] = "?";
                 }
-
             }
         }
         for (int j=0;j<gene.length;j++) {

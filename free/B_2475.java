@@ -14,9 +14,6 @@ public class B_2475 {
         int r = (a+b+c+d+e)%10;
         bw.write(Integer.toString(r));
         bw.flush();
-        bw.close();
-
-        
-    }
-    
+        bw.close();        
+    }    
 }
