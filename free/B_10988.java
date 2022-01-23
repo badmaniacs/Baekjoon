@@ -17,6 +17,5 @@ public class B_10988 {
         else bw.write("0");
         bw.flush();
         bw.close();        
-    }
-    
+    }    
 }

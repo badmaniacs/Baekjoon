@@ -1,7 +1,6 @@
 package baekjoon.free;
 import java.io.*;
 
-
 public class B_2902 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -13,6 +12,5 @@ public class B_2902 {
         }
         bw.flush();
         bw.close();
-    }
-    
+    }    
 }
