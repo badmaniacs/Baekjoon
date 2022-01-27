@@ -11,10 +11,7 @@ public class B_1085 {
         int w = Integer.parseInt(data[2]);
         int h = Integer.parseInt(data[3]);
         int result = 0;
-        if (w-x<h-y) {
-            result = w-x;
-        }
-        else result = h-y;
+        result =  (w-x > x ? x : w-x) > ( h-y > y ? y : h - y ) ? ( h-y > y ? y : h - y ) : (w-x > x ? x : w-x) ; 
         bw.write(Integer.toString(result));
         bw.flush();
         bw.close();
