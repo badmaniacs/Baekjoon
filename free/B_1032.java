@@ -16,8 +16,5 @@ public class B_1032 {
             }            
         }
         bw.close();
-
-
-
     }
 }

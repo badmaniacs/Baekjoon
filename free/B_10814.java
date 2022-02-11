@@ -19,10 +19,8 @@ public class B_10814 {
             bw.newLine();      
         }
         bw.flush();
-        bw.close();
-        
-    }
-    
+        bw.close();        
+    }    
 }
 
 class data implements Comparable<data>{

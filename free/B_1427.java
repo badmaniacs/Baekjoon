@@ -3,7 +3,6 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.Collections;
 
-
 public class B_1427 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -19,6 +18,5 @@ public class B_1427 {
         }
         bw.flush();
         bw.close();        
-    }
-    
+    }    
 }

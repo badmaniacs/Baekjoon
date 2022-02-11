@@ -70,6 +70,5 @@ public class B_18258 {
         }
         bw.flush();
         bw.close();
-    }
-    
+    }    
 }

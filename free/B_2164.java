@@ -18,6 +18,5 @@ public class B_2164 {
         bw.write(Integer.toString(card.getFirst()));
         bw.flush();
         bw.close();       
-    }
-    
+    }   
 }

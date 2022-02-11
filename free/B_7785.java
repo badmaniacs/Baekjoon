@@ -17,14 +17,11 @@ public class B_7785 {
                 log.remove(data[0]);
             }
         }
-        Iterator iter = log.descendingIterator();
+        Iterator<String> iter = log.descendingIterator();
         while(iter.hasNext()) {
             bw.write(iter.next().toString());
             bw.newLine();
         }
         bw.flush();
-
-    }
-
-    
+    }  
 }

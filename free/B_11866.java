@@ -32,7 +32,6 @@ public class B_11866 {
         bw.write(result.get(result.size()-1).toString()+">");
         }
         bw.flush();
-        bw.close();
-        
+        bw.close();       
     }   
 }

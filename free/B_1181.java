@@ -1,23 +1,30 @@
 package baekjoon.free;
 import java.io.*;
 import java.util.*;
-@SuppressWarnings("all")
-public class B_2750 {
+
+public class B_1181 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         int N = Integer.parseInt(br.readLine());
-        ArrayList<Integer> list1 = new ArrayList<Integer>(N);
+        TreeSet<String> tree = new TreeSet<String>(new comp());
         for (int i = 0;i<N;i++) {
-            int t = Integer.parseInt(br.readLine());
-            list1.add(new Integer(t));
+            tree.add(br.readLine());
         }
-        Collections.sort(list1);
-        for (int j = 0; j<list1.size(); j++) {
-            bw.write(Integer.toString(list1.get(j)));
+        Iterator<String> iter = tree.iterator();
+        while(iter.hasNext()) {
+            bw.write(iter.next());
             bw.newLine();
         }
         bw.flush();
         bw.close();            
     }    
+}
+class comp implements Comparator<String> {
+    public int compare(String x,String y) {
+        if (x.length() == x.length()) {
+            return x.compareTo(y);
+        }
+        else return x.length()-y.length();   
+    }
 }
