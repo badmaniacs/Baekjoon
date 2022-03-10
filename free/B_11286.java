@@ -3,13 +3,13 @@ package baekjoon.free;
 import java.io.*;
 import java.util.*;
 
-public class B_11279 {
+public class B_11286 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         PriorityQueue<Integer> tree = new PriorityQueue<Integer>(new Comparator<Integer>() {
             public int compare(Integer x,Integer y){
-                return -(x.compareTo(y));
+                return Math.abs(x)==Math.abs(y) ? x-y : Math.abs(x)-Math.abs(y);
             }
         });
         int N = Integer.parseInt(br.readLine());

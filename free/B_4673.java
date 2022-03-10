@@ -1,10 +1,8 @@
 package baekjoon.free;
 
-import java.io.BufferedWriter;
-import java.io.IOException;
-import java.io.OutputStreamWriter;
+import java.io.*;
 
-public class B_4674 {
+public class B_4673 {
     public static void main(String[] args) throws IOException {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         boolean[] number = new boolean[10100];

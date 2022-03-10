@@ -8,6 +8,7 @@ public class B_2667 {
     public static void main(String[] args) throws IOException {
         int N = Integer.parseInt(br.readLine());
         int[][] map = new int[N][N];
+        boolean[][] visited = new boolean[N][N];
         int result = 0;
         for(int i=0;i<N;i++){
             String[] input = br.readLine().split("");
@@ -43,4 +44,6 @@ public class B_2667 {
         }
         
     }
+
+
 }

@@ -8,7 +8,5 @@ public class B_3046 {
         String[] input = br.readLine().split(" ");
         bw.write(String.format("%d", Integer.parseInt(input[1])*2-Integer.parseInt(input[0])));
         bw.flush();
-        bw.close();
-    }
-    
+    }    
 }

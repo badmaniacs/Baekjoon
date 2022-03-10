@@ -20,10 +20,12 @@ public class B_1431{
                     }
                     for (int i=0;i<bnum.length;i++){
                         bsum+= Integer.parseInt(bnum[i]);
-                        if(asum==bsum){
+                        
+                    }
+                    if(asum==bsum){
                             return a.compareTo(b);
                         }
-                    }return asum-bsum;
+                    return asum-bsum;
                 }
                 return a.length()-b.length();
             }

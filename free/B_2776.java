@@ -9,12 +9,12 @@ public class B_2776{
         int T = Integer.parseInt(br.readLine());
         TreeSet<Integer> tree = new TreeSet<>();
         for (int i=0;i<T;i++){
-            int N = Integer.parseInt(br.readLine());
+            Integer.parseInt(br.readLine());
             String[] data1 = br.readLine().split(" ");
             for(String a : data1){
                 tree.add(Integer.parseInt(a));
             }
-            int M = Integer.parseInt(br.readLine());
+            Integer.parseInt(br.readLine());
             String[] data2 = br.readLine().split(" ");
             for(String b : data2){
                 if( tree.contains(Integer.parseInt(b))){

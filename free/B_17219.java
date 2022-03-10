@@ -20,6 +20,5 @@ public class B_17219 {
         }
         bw.flush();
         bw.close();      
-    }
-    
+    }    
 }

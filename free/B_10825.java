@@ -15,7 +15,7 @@ public class B_10825 {
         }
         Iterator<Student> it = tree.iterator();
         while(it.hasNext()){            
-            bw.write(String.format("%s%n", it.next()));
+            bw.write(String.format("%s%n", it.next().name));
         }
         bw.flush();
         bw.close();

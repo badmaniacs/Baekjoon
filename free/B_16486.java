@@ -11,7 +11,5 @@ public class B_16486 {
         double PI = 3.141592;
         bw.write(String.format("%s", (dOne*2)+(2*dTwo*PI)));
         bw.flush();
-
-    }
-    
+    }   
 }
