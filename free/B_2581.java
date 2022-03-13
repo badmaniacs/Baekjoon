@@ -3,8 +3,6 @@ package baekjoon.free;
 import java.io.*;
 import java.util.*;
 
-import javax.print.FlavorException;
-
 public class B_2581 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

@@ -39,6 +39,5 @@ public class B_5622 {
         else{
             return 10;
         }
-    }
-    
+    }  
 }

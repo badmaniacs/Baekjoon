@@ -16,7 +16,7 @@ public class B_2108 {
         }
         bw.write(String.format("%d%n", sum/5));
         Collections.sort(data);
-        bw.write(String.format("%d%n", data.get(3)));
+        bw.write(String.format("%d%n", data.get(2)));
         bw.flush();
     }    
 }
